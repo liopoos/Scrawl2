@@ -1,0 +1,275 @@
+# Translation of Scrawl in Hebrew
+# This file is distributed under the same license as the Scrawl package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-03-12 03:54:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Scrawl\n"
+
+#: content.php:35
+msgid "Featured"
+msgstr "רשומה נבחרת"
+
+#: single.php:17
+msgid "Next post"
+msgstr "הרשומה הבאה"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "תוצאות החיפוש: %s"
+
+#: single.php:17
+msgid "Previous post"
+msgstr "הרשומה הקודמת"
+
+#: inc/template-tags.php:275
+msgid "All %s posts"
+msgstr "כל הרשומות של %s"
+
+#: inc/template-tags.php:182
+msgid ", "
+msgstr ", "
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:118
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:120
+msgid "Archives"
+msgstr "ארכיון"
+
+#: inc/template-tags.php:111
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "צ'אטים"
+
+#: inc/template-tags.php:114
+msgid "Archives: %s"
+msgstr "ארכיון: %s"
+
+#: inc/template-tags.php:107
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "סטטוסים"
+
+#: inc/template-tags.php:109
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "אודיו"
+
+#: inc/template-tags.php:103
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "ציטוטים"
+
+#: inc/template-tags.php:105
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "לינקים"
+
+#: inc/template-tags.php:99
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "תמונות"
+
+#: inc/template-tags.php:101
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "סרטונים"
+
+#: inc/template-tags.php:97
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "גלריות"
+
+#: inc/template-tags.php:92
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j בF Y"
+
+#: inc/template-tags.php:95
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "הערות"
+
+#: inc/template-tags.php:92
+msgid "Day: %s"
+msgstr "יום: %s"
+
+#: inc/template-tags.php:90
+msgid "Month: %s"
+msgstr "חודש: %s"
+
+#: inc/template-tags.php:90
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:88
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:88
+msgid "Year: %s"
+msgstr "שנה: %s"
+
+#: inc/template-tags.php:86
+msgid "Author: %s"
+msgstr "מחבר: %s"
+
+#: inc/template-tags.php:84
+msgid "Tag: %s"
+msgstr "תג: %s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "ניווט ברשומות"
+
+#: inc/template-tags.php:82
+msgid "Category: %s"
+msgstr "קטגוריה: %s"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "פוסטים חדשים יותר"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "פוסטים ישנים יותר"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "ניווט בין הרשומות"
+
+#: inc/extras.php:103
+msgid "Cancel reply"
+msgstr "בטל תשובה"
+
+#: inc/customizer.php:30
+msgid "Gravatar Email"
+msgstr "כתובת אימייל של גראווטר"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: inc/customizer.php:20
+msgid "Theme"
+msgstr "ערכת עיצוב"
+
+#: functions.php:85
+msgid "Slide-Out Sidebar"
+msgstr "עמודה צידית נשלפת"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Merriweather, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:131
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "off"
+
+#: header.php:54
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: functions.php:50
+msgid "Social Links"
+msgstr "קישורים חברתיים"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: functions.php:49 header.php:25
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://he.wordpress.org/"
+
+#: content.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
+
+#: content-single.php:39 content.php:41
+msgid "1"
+msgstr "1"
+
+#: content-single.php:39 content.php:41
+msgid "%"
+msgstr "%"
+
+#: content-single.php:39 content.php:41
+msgid "0"
+msgstr "0"
+
+#: content-page.php:25 content-single.php:42 content.php:44
+msgid "Edit"
+msgstr "עריכה"
+
+#: content-page.php:18 content-single.php:18 content.php:24
+msgid "Pages:"
+msgstr ":עמודים"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "לא מצאתי כלום"
+
+#: comments.php:50
+msgid "Newer Comments"
+msgstr "תגובות חדשות"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:49
+msgid "Older Comments"
+msgstr "תגובות קודמות"
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: comments.php:39
+msgid "Reply"
+msgstr "להגיב"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה שלא נמצא כלום במיקום הזה. אולי תנסו לחפש?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס. העמוד שביקשת אינו קיים."

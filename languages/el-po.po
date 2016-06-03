@@ -1,0 +1,261 @@
+# Translation of Scrawl in Greek (Polytonic)
+# This file is distributed under the same license as the Scrawl package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-03-12 03:54:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Scrawl\n"
+
+#: content.php:35
+msgid "Featured"
+msgstr "Ἰδιαιτέρου ἐνδιαφέροντος"
+
+#: single.php:17
+msgid "Next post"
+msgstr "Ἑπόμενη ἀνάρτηση"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Ἀναζήτηση ἀποτελεσμάτων γιά: %s"
+
+#: single.php:17
+msgid "Previous post"
+msgstr "Προηγούμενο ἄρθρο"
+
+#: inc/template-tags.php:189
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Ἀναρτήθηκε στὶς %1$s</span><span class=\"byline\"> ἀπὸ τὸν/τὴν %2$s</span>"
+
+#: inc/template-tags.php:275
+msgid "All %s posts"
+msgstr "Ὅλα τὰ ἄρθρα τοῦ %s"
+
+#: inc/template-tags.php:182
+msgid ", "
+msgstr ","
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:118
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:120
+msgid "Archives"
+msgstr "Ἀρχεῖα"
+
+#: inc/template-tags.php:111
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Συζητήσεις"
+
+#: inc/template-tags.php:114
+msgid "Archives: %s"
+msgstr "Ἀρχεῖα: %s"
+
+#: inc/template-tags.php:107
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Καταστάσεις"
+
+#: inc/template-tags.php:109
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Ἠχητικό"
+
+#: inc/template-tags.php:103
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Λήμματα"
+
+#: inc/template-tags.php:105
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: inc/template-tags.php:99
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Εἰκόνες"
+
+#: inc/template-tags.php:101
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Βίντεο"
+
+#: inc/template-tags.php:97
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Συλλογές εἰκόνων"
+
+#: inc/template-tags.php:92
+msgid "Day: %s"
+msgstr "Ἡμέρα: %s"
+
+#: inc/template-tags.php:90
+msgid "Month: %s"
+msgstr "Μῆνας: %s"
+
+#: inc/template-tags.php:90
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:88
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:88
+msgid "Year: %s"
+msgstr "Ἔτος: %s"
+
+#: inc/template-tags.php:86
+msgid "Author: %s"
+msgstr "Συγγραφέας: %s"
+
+#: inc/template-tags.php:84
+msgid "Tag: %s"
+msgstr "Ἐτικέττα: %s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: inc/template-tags.php:82
+msgid "Category: %s"
+msgstr "Κατηγορία: %s"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Νεότερα ἄρθρα"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Παλαιότερα ἄρθρα"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: inc/extras.php:103
+msgid "Cancel reply"
+msgstr "Ἀκυρῶστε τὴν ἀπάντηση"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: inc/customizer.php:20
+msgid "Theme"
+msgstr "Θέμα ἐμφάνισης"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Merriweather, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:131
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:54
+msgid "Skip to content"
+msgstr "Πηγαίνετε στὸ περιεχόμενο τοῦ ἱστολογίου"
+
+#: functions.php:50
+msgid "Social Links"
+msgstr "Σύνδεσμοι πρὸς κοινωνικὰ δίκτυα"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Θέμα: %1$s ἀπὸ τὸν/τὴν %2$s."
+
+#: functions.php:49 header.php:25
+msgid "Primary Menu"
+msgstr "Πρωτεῦον μενού"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Λειτουργεῖ μὲ τὴν βοήθεια τοῦ %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:39 content.php:41
+msgid "1"
+msgstr "1"
+
+#: content-single.php:39 content.php:41
+msgid "%"
+msgstr "%"
+
+#: content-single.php:39 content.php:41
+msgid "0"
+msgstr "0"
+
+#: content-page.php:25 content-single.php:42 content.php:44
+msgid "Edit"
+msgstr "Ἐπεξεργασία"
+
+#: content-page.php:18 content-single.php:18 content.php:24
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Μᾶλλον δὲν μποροῦμε νὰ βροῦμε αὐτὸ ποὺ ψάχνετε. Ἴσως βοηθήσει μιὰ ἀναζήτηση."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμεθα, ἀλλὰ τίποτε δὲν ταιριάζει μὲ τὶς λέξεις ἀναζήτησης. Παρακαλοῦμε ξαναδοκιμάστε μὲ διαφορετικὲς λέξεις-κλειδιά."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ἕτοιμος/-η γιὰ τὸ πρῶτο σας ἄρθρο; <a href=\"%1$s\">Ξεκινῆστε ἀπὸ δῶ</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Οὑδὲν εὑρέθη!"
+
+#: comments.php:50
+msgid "Newer Comments"
+msgstr "Νεότερα σχόλια"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Ἡ ὑποβολὴ σχολίων ἔχει κλείσει."
+
+#: comments.php:49
+msgid "Older Comments"
+msgstr "Παλαιότερα σχόλια"
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr "Πλοήγηση στὰ σχόλια"
+
+#: comments.php:39
+msgid "Reply"
+msgstr "Ἀπάντηση"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Μιὰ σκέψη πάνω στὸ &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σκέψεις πάνω στὸ &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Ὡς φαίνεται, τίποτε δὲν βρέθηκε στὴν τοποθεσία αὐτήν. Νὰ δοκιμάζατε μήπως μιὰ ἀναζήτηση;"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ἡ σελίδα αὐτὴ δὲν βρέθηκε."

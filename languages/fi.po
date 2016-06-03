@@ -1,0 +1,258 @@
+# Translation of Scrawl in Finnish
+# This file is distributed under the same license as the Scrawl package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-18 11:54:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Scrawl\n"
+
+#: content.php:35
+msgid "Featured"
+msgstr "Nostot"
+
+#: single.php:17
+msgid "Next post"
+msgstr "Seuraava artikkeli"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Hakutulokset kohteelle: %s"
+
+#: single.php:17
+msgid "Previous post"
+msgstr "Edellinen artikkeli"
+
+#: inc/template-tags.php:189
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Julkaistu %1$s</span><span class=\"byline\"> by %2$s</span>"
+
+#: inc/template-tags.php:275
+msgid "All %s posts"
+msgstr "Kaikki kirjoittajan %s artikkelit"
+
+#: inc/template-tags.php:182
+msgid ", "
+msgstr ", "
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:118
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:120
+msgid "Archives"
+msgstr "Arkistot"
+
+#: inc/template-tags.php:111
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Keskustelut"
+
+#: inc/template-tags.php:114
+msgid "Archives: %s"
+msgstr "Arkistot: %s"
+
+#: inc/template-tags.php:109
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Äänitiedostot"
+
+#: inc/template-tags.php:105
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Linkit"
+
+#: inc/template-tags.php:103
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Lainaukset"
+
+#: inc/template-tags.php:101
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videot"
+
+#: inc/template-tags.php:99
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Kuvat"
+
+#: inc/template-tags.php:97
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galleriat"
+
+#: inc/template-tags.php:92
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j.n.Y"
+
+#: inc/template-tags.php:95
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Sivuhuomautukset"
+
+#: inc/template-tags.php:92
+msgid "Day: %s"
+msgstr "Päivä: %s"
+
+#: inc/template-tags.php:90
+msgid "Month: %s"
+msgstr "Kuukausi: %s"
+
+#: inc/template-tags.php:90
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:88
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:88
+msgid "Year: %s"
+msgstr "Vuosi: %s"
+
+#: inc/template-tags.php:86
+msgid "Author: %s"
+msgstr "Kirjoittaja: %s"
+
+#: inc/template-tags.php:84
+msgid "Tag: %s"
+msgstr "Tagi: %s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Artikkelien selaus"
+
+#: inc/template-tags.php:82
+msgid "Category: %s"
+msgstr "Kategoria: %s"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Uudemmat artikkelit"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Vanhemmat artikkelit"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Artikkelien selaus"
+
+#: inc/extras.php:103
+msgid "Cancel reply"
+msgstr "Peru vastaus"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: inc/customizer.php:20
+msgid "Theme"
+msgstr "Teema"
+
+#: header.php:54
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#: functions.php:50
+msgid "Social Links"
+msgstr "Some-linkit"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Teema: %1$s tekijä %2$s."
+
+#: functions.php:49 header.php:25
+msgid "Primary Menu"
+msgstr "Ensisijainen valikko"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Voimanlähteenä %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lue loppuun <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:39 content.php:41
+msgid "1"
+msgstr "1"
+
+#: content-single.php:39 content.php:41
+msgid "%"
+msgstr "%"
+
+#: content-single.php:39 content.php:41
+msgid "0"
+msgstr "0"
+
+#: content-page.php:25 content-single.php:42 content.php:44
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: content-page.php:18 content-single.php:18 content.php:24
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pahoittelut mutta mitään ei löytynyt hakuehdoillasi. Kokeile uudelleen joillakin toisilla hakusanoilla."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt"
+
+#: comments.php:50
+msgid "Newer Comments"
+msgstr "Uudemmat kommentit"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: comments.php:49
+msgid "Older Comments"
+msgstr "Vanhemmat kommentit"
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr "Kommenttien selaus"
+
+#: comments.php:39
+msgid "Reply"
+msgstr "Vastaa"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Yksi kommentti artikkeliin &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommenttia artikkeliin &rdquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Näyttää siltä että täällä ei ole mitään. Kokeilepa hakua?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Tätä sivua ei löydy."

@@ -1,0 +1,255 @@
+# Translation of Scrawl in Sinhala
+# This file is distributed under the same license as the Scrawl package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-22 06:05:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Scrawl\n"
+
+#: content.php:35
+msgid "Featured"
+msgstr "විශේෂ"
+
+#: single.php:17
+msgid "Next post"
+msgstr "පසු සටහන"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "%s සඳහා සෙවුම් ප්‍රතිඵල"
+
+#: single.php:17
+msgid "Previous post"
+msgstr "පෙර සටහන"
+
+#: inc/template-tags.php:275
+msgid "All %s posts"
+msgstr "සියලු %s ලිපි"
+
+#: inc/template-tags.php:182
+msgid ", "
+msgstr ", "
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:118
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:120
+msgid "Archives"
+msgstr "ලේඛනාගාරය"
+
+#: inc/template-tags.php:111
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "සංවාද"
+
+#: inc/template-tags.php:114
+msgid "Archives: %s"
+msgstr "ලිපිගොනු: %s"
+
+#: inc/template-tags.php:107
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "තත්ත්ව"
+
+#: inc/template-tags.php:109
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "හඬ පට"
+
+#: inc/template-tags.php:103
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "උපුටාගැනීම්"
+
+#: inc/template-tags.php:105
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "සබැඳි"
+
+#: inc/template-tags.php:99
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "රූප"
+
+#: inc/template-tags.php:101
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "වීඩියෝ"
+
+#: inc/template-tags.php:97
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "කලාගාර"
+
+#: inc/template-tags.php:92
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y F j"
+
+#: inc/template-tags.php:95
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "කොන් වූ"
+
+#: inc/template-tags.php:92
+msgid "Day: %s"
+msgstr "දවස: %s"
+
+#: inc/template-tags.php:90
+msgid "Month: %s"
+msgstr "මාසය: %s"
+
+#: inc/template-tags.php:90
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "මා ව"
+
+#: inc/template-tags.php:88
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "ව"
+
+#: inc/template-tags.php:88
+msgid "Year: %s"
+msgstr "වසර: %s"
+
+#: inc/template-tags.php:86
+msgid "Author: %s"
+msgstr "කර්තෘ: %s"
+
+#: inc/template-tags.php:84
+msgid "Tag: %s"
+msgstr "ටැගය: %s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "ලිපි යාත්‍රණය"
+
+#: inc/template-tags.php:82
+msgid "Category: %s"
+msgstr "වර්ගය: %s"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "අලුත් ලිපි"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "පැරණි ලිපි"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "ලිපි යාත්‍රණය"
+
+#: inc/extras.php:103
+msgid "Cancel reply"
+msgstr "ප්‍රතිචාරය අවලංගු කරන්න"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "%s පිටුව"
+
+#: inc/customizer.php:20
+msgid "Theme"
+msgstr "තේමාව"
+
+#: header.php:54
+msgid "Skip to content"
+msgstr "අන්තර්ගතයට පනින්න"
+
+#: functions.php:50
+msgid "Social Links"
+msgstr "සමාජ සබැඳි"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "තේමාව: %2$s විසින් %1$s."
+
+#: functions.php:49 header.php:25
+msgid "Primary Menu"
+msgstr "ප්‍රාථමික මෙනුව"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "සාඩම්බරයෙන් බලගන්වනු ලබන්නේ %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "දිගටම කියවන්න <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:39 content.php:41
+msgid "1"
+msgstr "1"
+
+#: content-single.php:39 content.php:41
+msgid "%"
+msgstr "%"
+
+#: content-page.php:25 content-single.php:42 content.php:44
+msgid "Edit"
+msgstr "සංස්කරණය"
+
+#: content-page.php:18 content-single.php:18 content.php:24
+msgid "Pages:"
+msgstr "පිටු:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "පෙනී යන ලෙසට ඔබ සොයන දෙය අපට සොයාගත නොහැකිය. ඇතැම් විට සෙවුමක් භාවිතය උදවු විය හැක."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "කණගාටුයි, නමුත් ඔබේ සෙවුම් කොන්දේසි සමඟ කිසිවක් නොගැලපුණි. කරුණාකර වෙනස් වදන් සමඟ නැවත උත්සාහ කරන්න."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "ඔබේ පළමු ලිපිය පළකිරීමට සූදානම් ද? <a href=\"%1$s\">මෙතැනින් අරඹන්න</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "කිසිවක් හමු නොවුණි"
+
+#: comments.php:50
+msgid "Newer Comments"
+msgstr "නව ප්‍රතිචාර"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "ප්‍රතිචාර වසාදමා ඇත."
+
+#: comments.php:49
+msgid "Older Comments"
+msgstr "පැරණි ප්‍රතිචාර"
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr "ප්‍රතිචාර යාත්‍රණය"
+
+#: comments.php:39
+msgid "Reply"
+msgstr "ප්‍රති-පිළිතුරු සැපයීම"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; මත එක් සිතිවිල්ලක්"
+msgstr[1] "&ldquo;%2$s&rdquo; මත සිතිවිලි %1$sක්"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "පෙනී යන ලෙසට මෙතැන දී කිසිවක් හමු වී නැත. සෙවුමක් උත්සාහ කරමු ද?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "අපොයි! එම පිටුව සොයාගත නොහැක."
