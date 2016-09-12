@@ -7,14 +7,15 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header">
-                <div class="entry-meta clear">
-			<?php scrawl_posted_on(); ?>
-		</div><!-- .entry-meta -->
+                
 		<?php if ( 'link' == get_post_format() ) : ?>
 			<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( scrawl_get_link_url() ) ), '</a></h1>' ); ?>
 		<?php else : ?>
 			<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 		<?php endif; ?>
+        <div class="entry-meta clear">
+			<?php scrawl_posted_on(); ?>
+		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 		<div class="entry-summary">

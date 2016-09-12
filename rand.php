@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: archives
+Template Name: rand
 */
 ?>
 <?php
@@ -18,20 +18,20 @@ Template Name: archives
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+
 		<main id="main" class="site-main" role="main">
-
+		<?php if ( have_posts() ) : ?>
+			<?php /* Start the Loop */ ?>
+                     
 			<?php while ( have_posts() ) : the_post(); ?>
+			 
+				<?php $rand_post=get_posts('numberposts=1&orderby=rand'); foreach($rand_post as $post) : ?>
+					<script> location="<?php the_permalink(); ?>";</script>
+				<?php endforeach; ?>
+             
+			<?php endwhile; ?>
 
-				<?php wp_easyarchives(); ?>
-
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
-
-			<?php endwhile; // end of the loop. ?>
+		<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php the_post_navigation( array( 'prev_text' => '<span class="title">' . __( 'Previous post', 'scrawl' ) . '</span>%title', 'next_text' => '<span class="title">' . __( 'Next post', 'scrawl' ) . '</span>%title' ) ); ?>
+			<?php the_post_navigation( array( 'prev_text' => '<span class="title">' . __( '上一篇', 'scrawl' ) . '</span>%title', 'next_text' => '<span class="title">' . __( '下一篇', 'scrawl' ) . '</span>%title' ) ); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

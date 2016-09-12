@@ -28,9 +28,7 @@ get_header(); ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( ! has_post_thumbnail() ) : ?>
-		<header class="entry-header">
-			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		</header><!-- .entry-header -->
+		
 	<?php endif; ?>
 
 	<div class="entry-content">
@@ -43,9 +41,23 @@ get_header(); ?>
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
-
+					<h5>关于hades：</h5>
                        <?php
-                              $bookmarks = get_bookmarks('title_li=&orderby=rand');
+                              $bookmarks = get_bookmarks('title_li=&category=57&orderby=rand');
+                              if ( !empty($bookmarks) ){
+                              echo '<ul class="link-content clearfix">';
+                              foreach ($bookmarks as $bookmark) {
+                              echo '<li style="list-style-type:none;">
+                              <img src="https://blog.mayuko.cn/favicons.php?url='.$bookmark->link_url.'" alt="  "></img>
+                              <a href="' . $bookmark->link_url . '" title="' . $bookmark->link_description . '"  target="_blank">'. $bookmark->link_name .'</a>
+                              </li>';
+                              }
+                              echo '</ul>';
+                              echo '<br>';}
+                          ?>
+					<h5>小伙伴们：</h5>
+                       <?php
+                              $bookmarks = get_bookmarks('title_li=&category=55&orderby=rand');
                               if ( !empty($bookmarks) ){
                               echo '<ul class="link-content clearfix">';
                               foreach ($bookmarks as $bookmark) {

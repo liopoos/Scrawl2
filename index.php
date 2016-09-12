@@ -14,13 +14,13 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+
 		<main id="main" class="site-main" role="main">
-
 		<?php if ( have_posts() ) : ?>
-
 			<?php /* Start the Loop */ ?>
+                     
 			<?php while ( have_posts() ) : the_post(); ?>
-
+			 
 				<?php
 					/* Include the Post-Format-specific template for the content.
 					 * If you want to override this in a child theme, then include a file
@@ -28,11 +28,11 @@ get_header(); ?>
 					 */
 					get_template_part( 'content', get_post_format() );
 				?>
-                        <?php if (is_home() && in_category(‘52’) ) continue; ?>
-
+                     
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
+<div id="pagination"><?php next_posts_link(__('更多')); ?></div>
+
 
 		<?php else : ?>
 

@@ -185,12 +185,13 @@ if ( ! function_exists( 'scrawl_featured_header' ) ) :
 	position: relative;
 	width: 100%;
 	height: 40%;
-	z-index: 0;
+	z-index: 9999;
+
 }
 .entry-title {
 	color: white;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 15%;
 	padding: .75em 0;
 	position: relative;
 	left: 50%;
@@ -200,8 +201,21 @@ if ( ! function_exists( 'scrawl_featured_header' ) ) :
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 90%;
-	z-index: 1;
+	z-index: -1;
+	text-align:center;
 }
+.featured-header-bg {
+ 	
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background:rgba(0,0,0,0.5);
+}
+
+
 
 @media screen and ( min-width: 58em ) {
 .entry-title {
@@ -213,12 +227,13 @@ if ( ! function_exists( 'scrawl_featured_header' ) ) :
 	width: 20em;
 }
 .featured-header-image {
-	height: 90%;
+	height: 100%;
+
 }
 .single.has-thumbnail .entry-title a:after {
 	content: "\f431";
 	display: block;
-	font-size: 72px;
+	font-size: 60px;
 	opacity: .75;
 	transition: all .1s ease-in-out;
 }
@@ -229,6 +244,31 @@ if ( ! function_exists( 'scrawl_featured_header' ) ) :
 }
 .single.has-thumbnail .entry-title a {
 	color: white;
+    font-size: 40px;
+	text-align:center;
+}
+.site-header{
+	position:absolute;
+}
+.featured-header-bg {
+	height: 100%;
+	background:rgba(0,0,0,0.5);
+}
+
+@keyframes fade-in {
+    0% {transform: scale(1.1) }/*初始状态 透明度为0*/
+    40% {transform: scale(1.1) }/*过渡状态 透明度为0*/
+    100% {transform: scale(1) }/*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+     0% {transform: scale(1.1) }/*初始状态 透明度为0*/
+    40% {transform: scale(1.1) }/*过渡状态 透明度为0*/
+    100% {transform: scale(1) }/*结束状态 透明度为1*/
+}
+.featured-header-image {
+    animation: fade-in;/*动画名称*/
+    animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation:fade-in 1s;/*针对webkit内核*/
 }
 </style>
 <?php
@@ -276,7 +316,7 @@ You commented on the [' . get_option("blogname") . '] have a new reply';
         $message = '<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 		<div style="-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px;background-color:white;border-top:2px solid #12ADDB;box-shadow:0 1px 3px #AAAAAA;line-height:180%;padding:0 15px 12px;width:500px;margin:50px auto;color:#555555;font-family:Century Gothic,Trebuchet MS,Hiragino Sans GB,微软雅黑,Microsoft Yahei,Tahoma,Helvetica,Arial,SimSun,sans-serif;font-size:12px;">
 		<h2 style="border-bottom:1px solid #DDD;font-size:14px;font-weight:normal;padding:13px 0 10px 8px;"><span style="color: #12ADDB;font-weight: bold;">></span>You commented on <a style="text-decoration:none;color: #12ADDB;" href="' . get_option('home') . '" target="_blank">' . get_option('blogname') . '</a> on there Reply ah!</h2><div style="padding:0 12px 0 12px;margin-top:18px"><p>Dear ' . trim(get_comment($parent_id)->comment_author) . 'Hello! You have in the article "' . get_the_title($comment->comment_post_ID) . '" Comments on:</p>
-		<p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">'. trim(get_comment($parent_id)->comment_content) . '</p><p>'. trim($comment->comment_author) .'to your reply as follows:</p><p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">' . trim($comment->comment_content) .'</p><p>You can click to <a href="' . htmlspecialchars(get_comment_link($parent_id, array('type' => 'comment'))) . '">view the full content Reply.</a>Welcome to <a href="' . get_option('home') . '">' . get_option('blogname') . 'again.</a></p>
+		<p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">'. trim(get_comment($parent_id)->comment_content) . '</p><p>'. trim($comment->comment_author) .' to your reply as follows:</p><p style="background-color: #f5f5f5;border: 0px solid #DDD;padding: 10px 15px;margin:18px 0">' . trim($comment->comment_content) .'</p><p>You can click to <a href="' . htmlspecialchars(get_comment_link($parent_id, array('type' => 'comment'))) . '">view the full content Reply.</a>Welcome to <a href="' . get_option('home') . '">' . get_option('blogname') . 'again.</a></p>
 		<p style="color: #000;background: #f5f5f5;font-size:11px;border: solid 1px #eee;padding: 2px 10px;">Note: This message is automatically sent by  <a href="' . get_option('home') . '">' . get_option('blogname') . '</a>. Don\'t reply directly.<br />If this message is not your request, please IGNORE and DELETE!</p></div></div>';
         $from = "From: \"" . get_option('blogname') . "\" <$wp_email>";
         $headers = "$from\nContent-Type: text/html; charset=utf-8\n" ;
@@ -326,5 +366,54 @@ add_action('comment_post', 'comment_mail_notify');
 	add_action('login_footer', 'custom_html');
 //链接管理器
 add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+//排除的指定分类id  
+function exclude_category_home( $query ) {  
+    if ( $query->is_home ) {//是否首页  
+        $query->set( 'cat', '' );  
+    }  
+    return $query;  
+}  
+add_filter( 'pre_get_posts', 'exclude_category_home' );  
 
+//新建尾巴功能 
+add_action('init', 'my_custom_init');
+function my_custom_init()
+{ $labels = array( 'name' => '尾巴',
+'singular_name' => '尾巴', 
+'add_new' => '发表尾巴', 
+'add_new_item' => '发表尾巴',
+'edit_item' => '编辑尾巴', 
+'new_item' => '新尾巴',
+'view_item' => '查看尾巴',
+'search_items' => '搜索尾巴', 
+'not_found' => '暂无尾巴',
+'not_found_in_trash' => '没有已遗弃的尾巴',
+'parent_item_colon' => '', 'menu_name' => '尾巴' );
+$args = array( 'labels' => $labels,
+'public' => true, 
+'publicly_queryable' => true,
+'show_ui' => true,
+'show_in_menu' => true, 
+'exclude_from_search' =>true,
+'query_var' => true, 
+'rewrite' => true, 'capability_type' => 'post',
+'has_archive' => false, 'hierarchical' => false, 
+'menu_position' => null, 'supports' => array('editor','author','title', 'custom-fields') );
+register_post_type('coda',$args); 
+}
+// 评论添加@，by Ludou
+function ludou_comment_add_at( $comment_text, $comment = '') {
+  if( $comment->comment_parent > 0) {
+    $comment_text = '@<a href="#comment-' . $comment->comment_parent . '">'.get_comment_author( $comment->comment_parent ) . '：</a> ' . $comment_text;
+  }
 
+  return $comment_text;
+}
+add_filter( 'comment_text' , 'ludou_comment_add_at', 20, 2);
+//禁用谷歌字体
+function coolwp_remove_open_sans_from_wp_core() {
+    wp_deregister_style( 'open-sans' );
+    wp_register_style( 'open-sans', false );
+    wp_enqueue_style('open-sans','');
+}
+add_action( 'init', 'coolwp_remove_open_sans_from_wp_core' );
